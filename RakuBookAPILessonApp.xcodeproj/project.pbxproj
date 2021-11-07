@@ -15,6 +15,8 @@
 		54E10FA82736CBA300A2019E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FA62736CBA300A2019E /* LaunchScreen.storyboard */; };
 		54E10FB42736CC5900A2019E /* TableViewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FB22736CC5900A2019E /* TableViewCustomCell.swift */; };
 		54E10FB52736CC5900A2019E /* TableViewCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FB32736CC5900A2019E /* TableViewCustomCell.xib */; };
+		54E10FB9273775A300A2019E /* BookDetailDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FB8273775A300A2019E /* BookDetailDatas.swift */; };
+		54E10FBB273775AE00A2019E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FBA273775AE00A2019E /* Alamofire.swift */; };
 		BFB2E0FD254125B218DB5A44 /* Pods_RakuBookAPILessonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF62134A507B379BC133C6BE /* Pods_RakuBookAPILessonApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		54E10FA92736CBA300A2019E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54E10FB22736CC5900A2019E /* TableViewCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCustomCell.swift; sourceTree = "<group>"; };
 		54E10FB32736CC5900A2019E /* TableViewCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCustomCell.xib; sourceTree = "<group>"; };
+		54E10FB8273775A300A2019E /* BookDetailDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailDatas.swift; sourceTree = "<group>"; };
+		54E10FBA273775AE00A2019E /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		BAEC907098F778E21DF99092 /* Pods-RakuBookAPILessonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakuBookAPILessonApp.debug.xcconfig"; path = "Target Support Files/Pods-RakuBookAPILessonApp/Pods-RakuBookAPILessonApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CF62134A507B379BC133C6BE /* Pods_RakuBookAPILessonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RakuBookAPILessonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -100,6 +104,8 @@
 		54E10FB12736CC1700A2019E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				54E10FB8273775A300A2019E /* BookDetailDatas.swift */,
+				54E10FBA273775AE00A2019E /* Alamofire.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -237,9 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E10FBB273775AE00A2019E /* Alamofire.swift in Sources */,
 				54E10FA02736CBA100A2019E /* ViewController.swift in Sources */,
 				54E10F9C2736CBA100A2019E /* AppDelegate.swift in Sources */,
 				54E10FB42736CC5900A2019E /* TableViewCustomCell.swift in Sources */,
+				54E10FB9273775A300A2019E /* BookDetailDatas.swift in Sources */,
 				54E10F9E2736CBA100A2019E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
